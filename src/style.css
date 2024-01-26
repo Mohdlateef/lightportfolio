@@ -1,0 +1,45 @@
+body{
+    margin:0;
+    padding:0;
+}
+#root{
+   
+   margin:0;
+    background-color: aqua;
+    
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(89, 67, 12);
+    color:white;
+    padding:10px;
+}
+.links{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    color:white;
+    
+}
+.links>a{
+    text-decoration: none;
+    color:aliceblue
+}
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: chocolate;
+    color:wheat;
+    font-size: 18px;
+    position: sticky;
+    bottom: 0px;
+}
